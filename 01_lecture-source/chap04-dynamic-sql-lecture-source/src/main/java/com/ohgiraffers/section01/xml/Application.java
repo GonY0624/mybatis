@@ -60,9 +60,9 @@ public class Application {
     private static SearchCriteria inputSearchCriteria() {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("검색 기준을 입력해주세요(name or category) : ");
+        System.out.print("검색 기준을 입력해주세요(name or category) : ");
         String condition = sc.nextLine();
-        System.out.println("검색어를 입력해주세요 : ");
+        System.out.print("검색어를 입력해주세요 : ");
         String value = sc.nextLine();
 
         // 필기. 리턴은 타입을 일치시키기!
