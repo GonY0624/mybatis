@@ -23,7 +23,7 @@ public class Application {
             switch (no){
                 case 1 : elementTestService.selectCacheTest(); break;
                 case 2 : resultMapSubMenu(); break;
-                case 3 : break;
+                case 3 : elementTestService.selectSqlTest(); break;
                 case 4 : break;
             }
 
@@ -51,7 +51,7 @@ public class Application {
                 case 1 : elementTestService.selectResultMapTest(); break;
                 case 2 : elementTestService.selectResultMapConstructorTest(); break;
                 case 3 : elementTestService.selectResultMapAssociationTest(); break;
-                case 4 : break;
+                case 4 : elementTestService.selectResultMapCollectionTest(); break;
 
 
             }
