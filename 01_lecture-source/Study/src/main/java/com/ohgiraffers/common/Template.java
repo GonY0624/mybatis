@@ -12,7 +12,7 @@ import java.io.InputStream;
 public class Template {
 
     private static SqlSessionFactory sqlSessionFactory;
-    public SqlSession getSqlSession(){
+    public static SqlSession getSqlSession(){
 
         if(sqlSessionFactory == null){
             String resource = "config/mybatis-config.xml";
